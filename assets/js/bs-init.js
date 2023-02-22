@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 (function(){
 
 	if (!('requestAnimationFrame' in window)) return;
-	if (/Mobile|Android/.test(navigator.userAgent)) return;
+	
 
 	var backgrounds = [];
 	var backgroundToSpeed = new WeakMap;
