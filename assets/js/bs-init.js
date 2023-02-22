@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 (function(){
 
-	if (!('requestAnimationFrame' in window)) return;
+	
 	
 
 	var backgrounds = [];
